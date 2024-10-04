@@ -47,41 +47,47 @@ The Streamlit dashboard contains the following visualizations:
 
 
 # Directory Structure
-
-
 Here is the structure of the project:
 
-```markdown
-```bash
 ```bash
 time-wasters-on-social-media/
 │
-├── data/                        # Folder containing the dataset
-│   └── social_media_usage.csv    # Dataset file (or any other relevant dataset)
+├── data/                        
+│   └── social_media_usage.csv  
 │
-├── preprocessor/                 # Folder for data preprocessing scripts
-│   ├── clean_data.py             # Script for cleaning the dataset
-│   ├── transform_data.py         # Script for transforming or feature engineering
-│   └── preprocess.py             # Main preprocessing script to call other preprocessing functions
+├── preprocessor/                 
+│   ├── clean_data.py        
+│   ├── transform_data.py        
+│   └── preprocess.py      
 │
-├── main.py                       # Main Streamlit app script
-│
-├── visualizations/               # Folder containing code for visualizations
-│   ├── time_spent_plot.py        # Script for time spent analysis
-│   ├── addiction_by_age.py       # Script for addiction level by age plot
-│   ├── platform_comparison.py    # Script for platform comparison plot
-│   └── engagement_trend.py       # Script for engagement trend analysis
-│
-├── insights/                     # Folder for insights analysis
-│   ├── addiction_analysis.py     # Analysis script for addiction levels
-│   └── engagement_analysis.py    # Analysis script for engagement trends
-│
-├── requirements.txt              # Python dependencies
-├── README.md                     # Project README file
+├── main.py
+```
+
+# Key Files:
+main.py: Main entry point for the Streamlit app.
+
+preprocessor/: Contains all the data preprocessing scripts, including data cleaning and transformation.
+
+clean_data.py: Handles missing values, outlier detection, etc.
+
+preprocess.py: This script orchestrates the entire preprocessing workflow by calling other scripts
+
+# Technologies
+Python: Programming language
+
+Streamlit: Dashboard framework
+
+Pandas: Data manipulation
+
+Matplotlib & Seaborn: Data visualization
+
+Numpy: Data handling and computation
+
+# Demo Video
+Watch the demo video here 
+      
 
 
-```markdown
-```bash
 
 
 
