@@ -47,8 +47,12 @@ The Streamlit dashboard contains the following visualizations:
 
 
 # Directory Structure
+## Directory Structure
 
-'''time-wasters-on-social-media/
+Here is the structure of the project:
+
+```bash
+time-wasters-on-social-media/
 │
 ├── data/                        # Folder containing the dataset
 │   └── social_media_usage.csv    # Dataset file (or any other relevant dataset)
@@ -58,7 +62,7 @@ The Streamlit dashboard contains the following visualizations:
 │   ├── transform_data.py         # Script for transforming or feature engineering
 │   └── preprocess.py             # Main preprocessing script to call other preprocessing functions
 │
-├── main.py                       # Main Streamlit app script that starts the app
+├── main.py                       # Main Streamlit app script
 │
 ├── visualizations/               # Folder containing code for visualizations
 │   ├── time_spent_plot.py        # Script for time spent analysis
@@ -72,7 +76,7 @@ The Streamlit dashboard contains the following visualizations:
 │
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # Project README file
-└── LICENSE                       # License for the project
+
 
 # key Files:
 main.py: Main entry point for the Streamlit app.
