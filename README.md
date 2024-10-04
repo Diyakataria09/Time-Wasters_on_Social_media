@@ -1,1 +1,1 @@
-# Time-Wasters_on_Social_media
+Time Wasters on Social Media
