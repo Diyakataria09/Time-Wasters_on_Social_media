@@ -48,7 +48,7 @@ The Streamlit dashboard contains the following visualizations:
 
 # Directory Structure
 
-time-wasters-on-social-media/
+'''time-wasters-on-social-media/
 │
 ├── data/                        # Folder containing the dataset
 │   └── social_media_usage.csv    # Dataset file (or any other relevant dataset)
