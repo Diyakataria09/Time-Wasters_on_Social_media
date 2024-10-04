@@ -47,10 +47,12 @@ The Streamlit dashboard contains the following visualizations:
 
 
 # Directory Structure
-## Directory Structure
+
 
 Here is the structure of the project:
 
+```markdown
+```bash
 ```bash
 time-wasters-on-social-media/
 │
@@ -80,36 +82,6 @@ time-wasters-on-social-media/
 
 ```markdown
 ```bash
-
-# key Files:
-main.py: Main entry point for the Streamlit app.
-
-preprocessor/: Contains all the data preprocessing scripts, including data cleaning and transformation.
-
-clean_data.py: Handles missing values, outlier detection, etc.
-
-transform_data.py: Manages feature engineering and data transformations.
-
-preprocess.py: This script orchestrates the entire preprocessing workflow by calling other scripts.
-
-visualizations/: Contains scripts to generate the different visualizations used in the dashboard.
-
-insights/: Holds scripts that perform deeper analysis of the dataset.
-
-# Technologies
-
-Python: Programming language
-
-Streamlit: Dashboard framework
-
-Pandas: Data manipulation
-
-Matplotlib & Seaborn: Data visualization
-
-Numpy: Data handling and computation
-
-# Demo Video
-Watch the demo video here 
 
 
 
