@@ -78,6 +78,9 @@ time-wasters-on-social-media/
 ├── README.md                     # Project README file
 
 
+```markdown
+```bash
+
 # key Files:
 main.py: Main entry point for the Streamlit app.
 
