@@ -85,7 +85,34 @@ Numpy: Data handling and computation
 
 # Demo Video
 Watch the demo video here 
-      
+# Key Dates and Activities
+
+## 1st October 2024:
+- *Logo Creation*: Designed the project logo.
+### Project Logo
+<img src="group_logo.jpg" alt="Project Logo" width="150"/>
+
+- *GitHub Repository Setup*: Created the repository to document and share the project.
+
+## 2nd October 2024:
+- *Reading Datasets*: Imported relevant datasets into the project.
+- *Data Merging*: Combined datasets as per project requirements.
+- *Data Insights*: Extracted specific insights from different columns required for analysis.
+- *Correlation Analysis*: Identified correlations between different columns to assess attribute dependencies.
+- *Data Visualization*: Visualized key attributes to facilitate data-driven decisions.
+
+## 3rd October 2024:
+- *Extracting Insights*: Gaining valuable insights from merged datasets.
+- *Data Visualization*: Employing appropriate visualization methods to present the data effectively.
+- *Error Rectification*: Fixing errors related to datetime formats.
+- *Streamlit Application*: Initiating the development of an interactive Streamlit app.
+
+## 4th October 2024:
+- *Key Insights Choosing*: Extracting key insights for dashboard building.
+- *Streamlit Application*: Building all dashboard features and making it interactive.
+- *Discussing Main Points*: Discussing main key points
+  
+---
 
 
 
