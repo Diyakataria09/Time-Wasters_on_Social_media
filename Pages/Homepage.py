@@ -45,8 +45,9 @@ st.markdown(
     f"""
     <h4 style='color: #4D4D4D; font-size: {font_size_question}px;'>What we will see ahead ?</h4>
     <ol>
-        <li style='color: #000080; font-size: {font_size_answers}px;'>User Distribution and Addiction Level Analysis</li>
-        <li style='color: #000080; font-size: {font_size_answers}px;'>Analysis of Time Spent over Social Media</li>
+        <li style='color: #000080; font-size: {font_size_answers}px;'>Analysis of Users and their activity over Social Media</li>
+        <li style='color: #000080; font-size: {font_size_answers}px;'>Engagement Levels of Users over Social Media</li>
+        <li style='color: #000080; font-size: {font_size_answers}px;'>Addiction Levels of Users over Social Media</li>
     </ol>
         
     """, 

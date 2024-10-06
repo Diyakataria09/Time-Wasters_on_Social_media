@@ -52,25 +52,27 @@ Here is the structure of the project:
 ```bash
 time-wasters-on-social-media/
 │
-├── data/                        
-│   └── social_media_usage.csv  
+├── social_media_usage.csv                         
 │
-├── preprocessor/                 
-│   ├── clean_data.py        
-│   ├── transform_data.py        
-│   └── preprocess.py      
+├── Pages/                 
+│   ├── Homepage.py        
+│   ├── 1_Time_Wasters.py        
+│   ├── 2_Engagement_Levels.py        
+│   └── 3_Addiction_Levels.py      
 │
-├── main.py
+├── streamlit_run.py
 ```
 
 # Key Files:
-main.py: Main entry point for the Streamlit app.
+streamlit_run.py: Main entry point for the Streamlit app.
 
-preprocessor/: Contains all the data preprocessing scripts, including data cleaning and transformation.
+Homepage.py : Provides the Introduction to the project and helps us with the navigation of pages
 
-clean_data.py: Handles missing values, outlier detection, etc.
+1_Time_Wasters.py : Contains all the data, graphs, and key analysis regarding users using Social Media.
 
-preprocess.py: This script orchestrates the entire preprocessing workflow by calling other scripts
+2_Engagement_Levels.py: Provides us with the engagement levels as per demographics of the user which depends on countries, gender, and areas they reside in, and concluding with the most common watch reasons.
+
+3_Addiction_Levels.py: Provides us with the addiction levels as per demographics of the user which depends on countries, gender, and areas they reside in, and concluding with the most common watch reasons.
 
 # Technologies
 Python: Programming language
