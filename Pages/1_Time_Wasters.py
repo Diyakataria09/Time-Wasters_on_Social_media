@@ -14,6 +14,17 @@ df = pd.read_csv('Time-Wasters on Social Media.csv')
 # Set up Streamlit layout
 st.subheader("Country-wise Addiction Levels by Demographics")
 
+# Columns Representing Numbers
+col1,col2=st.columns(2)
+st.write("")
+st.markdown("<hr>",unsafe_allow_html=True)
+st.write("")
+with col1:
+    st.metric("Total Users",len(df['UserID'].unique().tolist()))
+with col2:
+    st.metric("Total Time Spent", int(df['Total Time Spent'].sum()))
+
+
 # Country Selection Dropdown
 selected_country = st.selectbox("Select Country", df['Location'].unique().tolist())
 
@@ -26,19 +37,6 @@ selected_age_range = st.slider("Select Age Range", min_age, max_age, (min_age, m
 
 # Platform Selection
 selected_platform = st.selectbox("Select Platform", df['Platform'].unique().tolist())
-
-# Columns Representing Numbers
-col1,col2=st.columns(2)
-st.write("")
-st.write("")
-st.markdown("<hr>",unsafe_allow_html=True)
-st.write("")
-st.write("")
-with col1:
-    st.metric("Total Users",len(df['UserID'].unique().tolist()))
-with col2:
-    st.metric("Total Time Spent", int(df['Total Time Spent'].sum()))
-
 
 
 # Filter Data based on user selections
