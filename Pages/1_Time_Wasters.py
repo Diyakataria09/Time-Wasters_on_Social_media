@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Title of the app
-st.title('Time Wasters om Social Media')
+st.title('Time Wasters on Social Media')
 
 
 # Load your data

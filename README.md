@@ -52,25 +52,27 @@ Here is the structure of the project:
 ```bash
 time-wasters-on-social-media/
 │
-├── data/                        
-│   └── social_media_usage.csv  
+├── social_media_usage.csv                         
 │
-├── preprocessor/                 
-│   ├── clean_data.py        
-│   ├── transform_data.py        
-│   └── preprocess.py      
+├── Pages/                 
+│   ├── Homepage.py        
+│   ├── 1_Time_Wasters.py        
+│   ├── 2_Engagement_Levels.py        
+│   └── 3_Addiction_Levels.py      
 │
-├── main.py
+├── streamlit_run.py
 ```
 
 # Key Files:
-main.py: Main entry point for the Streamlit app.
+streamlit_run.py: Main entry point for the Streamlit app.
 
-preprocessor/: Contains all the data preprocessing scripts, including data cleaning and transformation.
+Homepage.py : Provides the Introduction to the project and helps us with the navigation of pages
 
-clean_data.py: Handles missing values, outlier detection, etc.
+1_Time_Wasters.py : Contains all the data, graphs, and key analysis regarding users using Social Media.
 
-preprocess.py: This script orchestrates the entire preprocessing workflow by calling other scripts
+2_Engagement_Levels.py: Provides us with the engagement levels as per demographics of the user which depends on countries, gender, and areas they reside in, and concluding with the most common watch reasons.
+
+3_Addiction_Levels.py: Provides us with the addiction levels as per demographics of the user which depends on countries, gender, and areas they reside in, and concluding with the most common watch reasons.
 
 # Technologies
 Python: Programming language
@@ -85,7 +87,34 @@ Numpy: Data handling and computation
 
 # Demo Video
 Watch the demo video here 
-      
+# Key Dates and Activities
+
+## 1st October 2024:
+- *Logo Creation*: Designed the project logo.
+### Project Logo
+<img src="group_logo.jpg" alt="Project Logo" width="150"/>
+
+- *GitHub Repository Setup*: Created the repository to document and share the project.
+
+## 2nd October 2024:
+- *Reading Datasets*: Imported relevant datasets into the project.
+- *Data Merging*: Combined datasets as per project requirements.
+- *Data Insights*: Extracted specific insights from different columns required for analysis.
+- *Correlation Analysis*: Identified correlations between different columns to assess attribute dependencies.
+- *Data Visualization*: Visualized key attributes to facilitate data-driven decisions.
+
+## 3rd October 2024:
+- *Extracting Insights*: Gaining valuable insights from merged datasets.
+- *Data Visualization*: Employing appropriate visualization methods to present the data effectively.
+- *Error Rectification*: Fixing errors related to datetime formats.
+- *Streamlit Application*: Initiating the development of an interactive Streamlit app.
+
+## 4th October 2024:
+- *Key Insights Choosing*: Extracting key insights for dashboard building.
+- *Streamlit Application*: Building all dashboard features and making it interactive.
+- *Discussing Main Points*: Discussing main key points
+  
+---
 
 
 
