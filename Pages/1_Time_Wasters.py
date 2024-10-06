@@ -14,19 +14,6 @@ df = pd.read_csv('Time-Wasters on Social Media.csv')
 # Set up Streamlit layout
 st.subheader("Country-wise Addiction Levels by Demographics")
 
-# Country Selection Dropdown
-selected_country = st.selectbox("Select Country", df['Location'].unique().tolist())
-
-# Gender Selection
-selected_gender = st.selectbox("Select Gender", df['Gender'].unique().tolist())
-
-# Age Slider (assuming 'Age' column is in the dataset)
-min_age, max_age = int(df['Age'].min()), int(df['Age'].max())
-selected_age_range = st.slider("Select Age Range", min_age, max_age, (min_age, max_age))
-
-# Platform Selection
-selected_platform = st.selectbox("Select Platform", df['Platform'].unique().tolist())
-
 # Columns Representing Numbers
 col1,col2=st.columns(2)
 st.write("")
@@ -39,6 +26,19 @@ with col1:
 with col2:
     st.metric("Total Time Spent", int(df['Total Time Spent'].sum()))
 
+
+# Country Selection Dropdown
+selected_country = st.selectbox("Select Country", df['Location'].unique().tolist())
+
+# Gender Selection
+selected_gender = st.selectbox("Select Gender", df['Gender'].unique().tolist())
+
+# Age Slider (assuming 'Age' column is in the dataset)
+min_age, max_age = int(df['Age'].min()), int(df['Age'].max())
+selected_age_range = st.slider("Select Age Range", min_age, max_age, (min_age, max_age))
+
+# Platform Selection
+selected_platform = st.selectbox("Select Platform", df['Platform'].unique().tolist())
 
 
 # Filter Data based on user selections
