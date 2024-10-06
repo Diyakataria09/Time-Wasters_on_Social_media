@@ -94,7 +94,7 @@ Matplotlib & Seaborn: Data visualization
 Numpy: Data handling and computation
 
 # Demo Video
-Watch the demo video here 
+Watch the demo video here: https://youtu.be/EvJmZ59UMUY
 
 # Project Report :
 https://drive.google.com/file/d/1wOf03U4ZkDyS4hCVH7t94aK3zIj1NmJ4/view?usp=sharing
