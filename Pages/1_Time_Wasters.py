@@ -17,9 +17,7 @@ st.subheader("Country-wise Addiction Levels by Demographics")
 # Columns Representing Numbers
 col1,col2=st.columns(2)
 st.write("")
-st.write("")
 st.markdown("<hr>",unsafe_allow_html=True)
-st.write("")
 st.write("")
 with col1:
     st.metric("Total Users",len(df['UserID'].unique().tolist()))
