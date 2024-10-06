@@ -52,6 +52,8 @@ The Streamlit dashboard contains the following visualizations:
 - Engagement Levels by Platform
 - Gender-wise Comparison of Productivity Loss
 
+# Streamlit Dashboard:https://time-wasters-on-socialmedia.streamlit.app/
+
 # Directory Structure
 Here is the structure of the project:
 
