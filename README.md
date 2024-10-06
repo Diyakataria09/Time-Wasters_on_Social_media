@@ -87,6 +87,10 @@ Numpy: Data handling and computation
 
 # Demo Video
 Watch the demo video here 
+
+# Project Report :
+https://drive.google.com/file/d/1wOf03U4ZkDyS4hCVH7t94aK3zIj1NmJ4/view?usp=sharing
+
 # Key Dates and Activities
 
 ## 1st October 2024:
@@ -113,7 +117,10 @@ Watch the demo video here
 - *Key Insights Choosing*: Extracting key insights for dashboard building.
 - *Streamlit Application*: Building all dashboard features and making it interactive.
 - *Discussing Main Points*: Discussing main key points
-  
+
+
+## 5th october 2024:
+- *Project report: https://drive.google.com/file/d/1wOf03U4ZkDyS4hCVH7t94aK3zIj1NmJ4/view?usp=sharing
 ---
 
 
