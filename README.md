@@ -7,15 +7,15 @@ This project examines user behavior on social media platforms, focusing on the f
 **With the rise of social media usage, it's important to understand how much time is being spent on these platforms and whether it's leading to productivity loss or addiction. This project aims to shed light on these patterns through data analysis and visualization, enabling a deeper understanding of social media behaviors**
 
 # Features
-: Interactive visualizations powered by Streamlit
+- *Interactive visualizations powered by Streamlit
 
-: Analysis of total time spent on social media throughout the day
+- *Analysis of total time spent on social media throughout the day
 
-:Comparison of social media engagement across age groups
+- *Comparison of social media engagement across age groups
 
-:KDE plot showing addiction levels by age
+- *KDE plot showing addiction levels by age
 
-:Trend analysis of engagement and addiction across different user demographics
+- *Trend analysis of engagement and addiction across different user demographics
 
 # Data
 The dataset contains anonymized user data and includes columns for gender, age, time spent on the platform, addiction levels, and engagement. The data has been grouped and processed for the purpose of this analysis
